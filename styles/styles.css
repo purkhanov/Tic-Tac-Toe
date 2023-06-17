@@ -1,0 +1,45 @@
+:root {
+  --purple-color: rgb(140, 0, 255);
+  --btn-hover: rgb(79, 10, 190);
+  --btn-hover-light: rgb(230, 201, 252);
+}
+
+body {
+  margin: 0;
+  font-family: 'Open-Sans', sans-serif;
+  color: rgb(44, 41, 44);
+  background-color: rgb(247, 239, 247);
+}
+
+#main-header {
+  background-color: var(--purple-color);
+  color: white;
+  padding: 1rem 5%;
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--purple-color);
+  border: 1px solid var(--purple-color);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--purple-color);
+}
+
+.btn:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.btn-alt:hover {
+  background-color: var(--btn-hover-light);
+  border-color: transparent;
+}
